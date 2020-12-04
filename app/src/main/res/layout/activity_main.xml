@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.fgtit.onepass.MainActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true">
+
+        <ImageSwitcher
+            android:id="@+id/imageSwitcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </ImageSwitcher>
+
+    </LinearLayout>
+    <!--
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    -->
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:text="@string/main_txtinfo1"
+                android:id="@+id/textView3"
+                android:textColor="#ffffff"
+                android:layout_weight="0.24"
+                android:paddingBottom="20dp"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/dummy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.21"
+                android:paddingBottom="20dp"
+                android:text="@string/main_txtmanage"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/darkred" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/topLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#333333"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:paddingTop="40dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_txtinfo2"
+            android:id="@+id/textView1"
+            android:textColor="#ffffff"
+            android:textSize="24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_txtinfo3"
+            android:id="@+id/textView2"
+            android:textColor="#ffffff"
+            android:textSize="48dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\libs\android-core-3.1.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9ee2a9155907c0a0398caa2eeceafdafd79ee8d8">
+        <dex dex="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\build\intermediates\pre-dexed\debug\android-core-3.1.1-SNAPSHOT_37f47d6180b992ea0b2e6a3309d40fbddeb9780a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_6b3c518bc9c8bcc2951748b7b651357ab447fc9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_4d4af07a1ec24a62395594ee083882a095381b03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\libs\core-3.1.1-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5589d0e71fbbd91262d1aa6c8e153ff211ec9fe0">
+        <dex dex="G:\AndroidStudio\OnePass-FT-06\OnePass-125Card\OnePass-Access-AS\app\build\intermediates\pre-dexed\debug\core-3.1.1-SNAPSHOT_1a5917351b7d9456b6943a5441c968a6fc4adb46.jar" />
+    </item>
+
+</items>

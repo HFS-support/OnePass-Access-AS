@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+	<string name="app_name">OnePass</string>
+	<string name="title_activity_enroluser">Enrol User</string>
+    <string name="title_activity_capturephoto">Capture Photo</string>
+    <string name="title_activity_employees">Users List</string>
+    <string name="title_activity_employee">User Information</string>
+    <string name="title_activity_records">Identification Records</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_utilities">System Tools</string>    
+    <string name="title_activity_system">System Settings</string>
+    <string name="title_activity_network">Network Setting</string>
+    
+	<!-- Main -->    
+    <string name="txt_week1">Sunday</string>
+    <string name="txt_week2">Monday</string>
+    <string name="txt_week3">Tuesday</string>
+    <string name="txt_week4">Wednesday</string>
+    <string name="txt_week5">Thursday</string>
+    <string name="txt_week6">Friday</string>
+    <string name="txt_week7">Saturday</string>
+    <string name="main_txtmanage">Manage</string>
+    <string name="main_txtinfo1">SHENZHEN FGTIT\n2009-2016</string>
+    <string name="main_txtinfo2">2016-04-22 Friday</string>
+    <string name="main_txtinfo3">10:00</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_username">User Name</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="txt_query">Query Type</string>
+    <string name="txt_count">Records:0</string>
+    
+    <string name="about_caption">About - OnePass Access System</string>
+    <string name="about_version">Vesion 1.0</string>
+    <string name="about_rights">All rights reserved,2010&#8211;2017</string>
+    
+    <string name="txt_netup1">Upload Users Records</string>
+    <string name="txt_netup2">Upload Users records to server</string>
+    <string name="txt_netup3">Upload Logs Records</string>
+    <string name="txt_netup4">Upload Logs Records to server</string>
+    <string name="txt_netdn1">Download Users Records</string>
+    <string name="txt_netdn2">Download Users records from server</string>
+    
+    <!-- System Setting -->    
+    <string name="txt_devicesn">Device SN</string>
+    <string name="txt_devicename">Device Name</string>
+    <string name="txt_devicemode">Device Mode</string>
+	<string name="txt_matchmode">Match Mode</string>
+	<string name="txt_lockdelay">Lock Delay</string>
+	<string name="txt_alarmdelay">Alarm Delay</string>
+    <string-array name="array_devicemode"> 
+        <item>Standard</item>
+        <item>Reader</item>
+    </string-array>
+    <string-array name="array_matchmode"> 
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+    <string-array name="array_lockdelay"> 
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="array_alarmdelay"> 
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    
+    <!-- Network Setting   -->
+    <string name="net_localwifi">WIFI</string>
+    <string name="net_wifiset">WIFI Setting</string>
+    <string name="net_localeth">Ethernet</string>
+    <string name="net_ethset">Ethernet Setting</string>
+    
+    <string name="net_localdhcp">Local Net DHCP</string>    
+    <string name="net_dhcpset">Enable DHCP</string>
+    <string name="net_localip">Local Net IP</string>
+    <string name="net_localgete">Local Net Gate</string>
+    <string name="net_localsub">Local Net Sub</string>
+    <string name="net_localport">Local Net Port</string>
+    
+    <string name="net_serverip">Server Net IP</string>
+    <string name="net_serverport">Server Net Port</string>    
+    <string name="net_serverweb">Web Server</string>
+  
+    <string name="networkcfg">Netware Setting</string>
+    <string name="not_null">Not null</string>
+    <string name="net_status">Net Status</string>
+    <string name="net_setting">System Setting</string>
+    
+    <string name="txt_upd01">Software Update</string>
+    <string name="txt_upd02">Update Now</string>
+    <string name="txt_upd03">Later</string>
+    <string name="txt_upd04">Downloading &#8230;</string>
+    <string name="txt_upd05">Cancel</string>
+    <string name="txt_upd06">Unable download file, please check SD card</string>
+    <string name="txt_upd07">Network suck ah</string>
+    <string name="txt_upd08">Not found resources</string>
+    <string name="txt_upd09">Is being detected, please wait &#8230;</string>
+    <string name="txt_upd10">You are the latest version</string>
+    <string name="txt_upd11">Can\'t get version update information</string>
+    <string name="txt_upd12">Network failure, unable to connect the server</string>
+
+    <string name="txt_cardplace">Please place card &#8230;</string>
+    <string name="txt_fingerplace">Please press finger &#8230;</string>
+    <string name="txt_fpbegin">Begin to Identify</string>
+    <string name="txt_fpplace">Please press finger</string>
+    <string name="txt_fpdisplay">Display fingerprint image &#8230;</string>
+    <string name="txt_fpprocess">Start processing &#8230;</string>
+    <string name="txt_fpidentify">Being Identify &#8230;</string>
+    <string name="txt_fpfail">Failed to generate!</string>
+    <string name="txt_fpmatchok">Match OK!</string>
+    <string name="txt_fpmatchfail">Match Fail!</string>
+    <string name="txt_cardmatch">Card Match Success</string>
+    <string name="txt_cardsn">Card SN:</string>
+    <string name="txt_fpmatching">Matching &#8230;</string>
+    <string name="txt_snerror">SN Error</string>
+    <string name="txt_fpclick">Click the fingerprint icon to begin</string>
+    <string name="txt_enrolinfo1">Not Enroll User</string>
+    <string name="txt_enrolinfo2">Please Enroll User</string>
+    <string name="txt_exitinfo">Press again to exit</string>
+            
+    <string name="action_logon">Login</string>
+    <string name="action_return">Back</string>
+    <string name="action_enroll">Enrol</string>
+    <string name="action_detail">View</string>
+    <string name="action_register">Edit</string>
+    <string name="action_edit">Editor</string>
+    <string name="action_delete">Delete</string>   
+    <string name="action_clear">Clear All</string>
+    <string name="action_save">Save</string>
+    <string name="action_make">Make Card</string>   
+    <string name="action_query">Query</string>
+    
+    <string name="txt_password">Password</string>
+    <string name="txt_adminname">Administrator</string>
+    
+    
+    <string name="title_activity_menu">Manage Menu</string>
+    <string name="txt_menu1">User Manage</string>
+    <string name="txt_menu2">Logs Manage</string>
+    <string name="txt_menu3">Access Control</string>
+    <string name="txt_menu4">System Setting</string>
+    <string name="txt_menu5">Data Upload/Download</string>
+    <string name="txt_menu6">About Device</string>
+    
+    <string name="txt_title_01">Logs Records</string>
+    <string name="txt_info_01">View Logs Records</string>
+    <string name="txt_title_02">Users Information</string>
+    <string name="txt_info_02">Enroll,Edit,Users Information</string>   
+    <string name="txt_title_03">System Settings</string>
+    <string name="txt_info_03">System,Access Control </string>
+    <string name="txt_title_04">Network Settings</string>
+    <string name="txt_info_04">Net,Wifi,Server</string>
+    <string name="txt_title_05">Data Upload/Donwload</string>
+    <string name="txt_info_05">Upload and Download Data</string>
+    <string name="txt_title_06">About</string>
+    <string name="txt_info_06">About this System</string>
+    <string name="txt_title_07">Exit</string>
+    <string name="txt_info_07">Exit this System</string>
+    
+    <string name="txt_selall">All</string>
+    <string name="txt_selact">Administrator</string>
+    <string name="txt_selict">General</string>
+    
+    <string name="txt_userid">ID</string>
+    <string name="txt_username">Name</string>
+    <string name="txt_datetime">Date Time</string>
+    <string name="txt_usertype">Type</string>
+    <string name="txt_male">Male</string>
+    <string name="txt_female">Female</string>
+    <string name="txt_gender">Gemder</string>
+    <string name="txt_phone">Phone</string>
+    <string name="txt_remark">Remark</string>
+    <string name="txt_photo">Photo</string>
+    <string name="txt_identype">Identify</string>
+    <string name="txt_enrol1">Enrol One</string>
+    <string name="txt_enrol2">Enrol Two</string>
+    <string name="txt_enrol3">Enrol Three</string>
+    <string name="txt_card">Card</string>
+    <string name="txt_bardcode1">1D Bardcode</string>
+    <string name="txt_bardcode2">2D Barcode</string>
+    
+    <string name="us_prompt">Please Select</string>     
+    <string-array name="us1_array"> 
+        <item>Management</item>
+        <item>General</item>
+    </string-array>
+    <string-array name="us2_array"> 
+        <item>Fingerprint</item>
+        <item>Smart Card</item>
+    </string-array>
+    <string-array name="us3_array"> 
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="quy_array">
+        <item>All</item> 
+        <item>ID</item> 
+        <item>Name</item>
+    </string-array> 
+    
+    <!-- Barcode Zxing -->
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">Create</string>
+    <string name="scan_failed">Scan Fails</string>
+    <string name="bottom_hint">10CM recommend keeping a distance with the camera, try to avoid backlighting and shadows</string>
+    <string name="top_hint">Barcode or two-dimensional code is placed within the frame system will automatically scan</string>
+    <string name="cancel">Cancel</string>
+    <string name="msg_camera_framework_bug">Sorry, Camera is a problem. Please Check the Camera.</string>
+    <string name="button_ok">OK</string>
+    
+    <string name="capture_tophint">Please targets placed within the frame</string>
+    <string name="capture_bothint">Try to avoid backlighting and shadows \n Click the button to capture the frame or picture</string>
+    <string name="capture_caphint">Captue, Wait &#8230;</string>
+    
+</resources>
+
